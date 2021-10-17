@@ -1,0 +1,120 @@
+.signup-container{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.form-container{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    box-shadow: 4px 4px 20px 10px rgba(0, 0, 0, 0.05);
+}
+.signup-title{
+    color: #01A0C6;
+    margin-bottom: 20px;
+}
+.form-submit{
+    color: white;
+    background-color: #01A0C6;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.form-submit:hover{
+    transition: 0.5s;
+    background-color: #00627a;
+    color: white;
+}
+label{
+    text-align: left;
+    margin-bottom: 5px;
+}
+.input-field{
+    padding: 10px;
+    border: solid 2px #01A0C6;
+}
+.terms{
+    margin-top: 20px;
+}
+.terms-link{
+    color: #01A0C6;
+    text-decoration: none;
+}
+.member-link{
+    margin-top: 20px;
+}
+.login-link{
+    text-decoration: none;
+    color: #01A0C6;
+}
+.errorMsg{
+    color: red;
+    font-size: 12px;
+    text-align: left;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .form-container{
+        padding: 40px;
+    }
+    .input-field{
+        padding: 7px;
+        border: solid 1px #01A0C6;
+        margin-bottom: 15px;
+    }
+   .form-submit{
+       padding: 7px 5px;
+   }
+   .signup-title{
+        font-size: 30px;
+    }
+    label{
+        font-size: 14px;
+    }
+    .terms{
+        font-size: 14px;
+        width: 200px;
+        text-align: center;
+    }
+    .member-link{
+        font-size: 14px;
+    }
+  }
+
+  @media only screen and (min-width: 500px) and (max-width: 700px) {
+    .form-container{
+        padding: 40px;
+    }
+    .input-field{
+        padding: 8px;
+        border: solid 1px #01A0C6;
+        margin-bottom: 15px;
+    }
+   .form-submit{
+       padding: 8px 5px;
+   }
+   .signup-title{
+        font-size: 32px;
+    }
+    label{
+        font-size: 15px;
+    }
+    .terms{
+        font-size: 14px;
+        width: 270px;
+        text-align: center;
+    }
+    .member-link{
+        font-size: 14px;
+    }
+  }

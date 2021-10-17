@@ -1,0 +1,94 @@
+.header-container{
+    height: 80px;
+    justify-content: space-between;
+    display: flex;
+    padding: 0 100px;
+}
+
+
+#header-icon{
+    color: #01A0C6;
+    font-size: 35px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+#header-icon:hover{
+        transition: 0.5s;
+        color: #00627a;
+}
+.logo{
+    width: 150px;
+    margin-top: 15px;
+}
+.sign-up-btn{
+    background-color: #01A0C6;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.sign-up-btn:hover{
+    transition: 0.5s;
+    background-color: #00627a;
+}
+.header-right-elements{
+    margin-top: 15px;
+}
+.fa-times{
+    color: #01A0C6;
+}
+.mobile-icon{
+    display: block;
+    position: absolute;
+    top: -20px;
+    right: 10px;
+    transform: translate(-100%, 60%);
+    font-size: 40px;
+    cursor: pointer;
+    color: #01A0C6;
+}
+.sidebar {
+    width: 50%;
+    background: #01A0C6;
+    height: 100vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    transition: 0.3s all ease-in-out;
+    padding: 15px;
+    z-index: 50;
+  }
+  
+  .sidebar.active {
+    left: 0;
+  }
+  
+  .sidebar-items {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.2s all ease-out;
+  }
+  .sidebar-links {
+      color: white;
+      text-decoration: none;
+      margin-top: 15px;
+  }
+  .sidebar-links:hover{
+      color: #C4C4C4;
+  }
+  @media only screen and (min-width: 300px) and (max-width: 500px) {
+      .header-container{
+          padding: 0 50px;
+      }
+      .logo{
+        width: 100px;
+        margin-top: 20px;
+    }
+    .sidebar{
+        height: 100vh;
+        top: 80px;
+    }
+  }

@@ -1,0 +1,221 @@
+.footer-container{
+    background-color: #01A0C6;
+    padding: 50px 100px;
+    letter-spacing: 1px;
+    height: 350px;
+}
+.title{
+    font-size: 20px;
+    display: flex;
+    color: #434343;
+}
+#footer-headline{
+    margin-bottom: 20px;
+    
+}
+.footer-row{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.footer-link:hover{
+    color: #C4C4C4;
+    transition: 0.5s;
+}
+.footer-icons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.footer-icon{
+    width: 135px;
+    margin: 0 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-icon-item{
+    border-radius: 50%;
+    color: #01A0C6;
+    background-color: white;
+    font-size: 25px;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#footer-icon-item:hover{
+    background-color: #C4C4C4;
+}
+
+.copyright{
+    font-weight: bold;
+    color: #434343;;
+}
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+    .footer-container{
+        padding: 50px 50px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 750px;
+    }
+    .title{
+        font-size: 16px;
+    }
+    #footer-headline{
+        margin: 40px 0 10px 0;  
+    }
+    .column{
+        align-items: center;
+        
+    }
+    .footer-row{
+        grid-template-columns: 1fr;
+    }
+    .footer-link{
+        text-decoration: none;
+        color: white;
+        text-align: left;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .footer-icons{
+        margin: 40px 0 20px 0;
+        align-items: center;
+    }
+    .footer-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fa{
+        font-size: 20px;
+        padding: 7px;
+    }
+    .copyright{
+        align-items: center;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .footer-container{
+        padding: 50px;
+        height: 400px;
+    }
+    .title{
+        font-size: 17px;
+    }
+    #footer-headline{
+        margin: 40px 0 10px 0;  
+    }
+    .footer-row{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .footer-link{
+        text-decoration: none;
+        color: white;
+        text-align: left;
+        margin-top: 10px;
+        font-size: 17px;
+    }
+    .footer-icons{
+        margin: 40px 0 20px 0;
+        
+    }
+    .footer-icon{
+        display: flex;
+        width: 140px;
+    }
+    .fa{
+        font-size: 20px;
+        padding: 7px;
+    }
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .footer-container{
+        padding: 50px;
+        height: 400px;
+    }
+    .title{
+        font-size: 18px;
+    }
+    #footer-headline{
+        margin: 40px 0 10px 0;  
+    }
+    .footer-row{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .footer-link{
+        text-decoration: none;
+        color: white;
+        text-align: left;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .footer-icons{
+        margin: 40px 0 20px 0;
+        
+    }
+    .footer-icon{
+        display: flex;
+        width: 135px;
+    }
+    .fa{
+        font-size: 20px;
+        padding: 7px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .footer-container{
+            padding: 50px;
+            height: 400px;
+        }
+        .title{
+            font-size: 18px;
+        }
+        #footer-headline{
+            margin: 40px 0 10px 0;  
+        }
+        .footer-row{
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .footer-link{
+            text-decoration: none;
+            color: white;
+            text-align: left;
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        .footer-icons{
+            margin: 40px 0 20px 0;
+            
+        }
+        .footer-icon{
+            display: flex;
+            width: 135px;
+        }
+        .fa{
+            font-size: 20px;
+            padding: 8px;
+        }
+}
+/* @media only screen and (min-width: 1200px) {
+    .footer-container{
+        border: solid green;
+    }
+} */

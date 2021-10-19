@@ -39,7 +39,7 @@
     cursor: pointer;
 }
 .related-image{
-    height: 60%;
+    height: 65%;
     
 }
 .related-save{
@@ -49,9 +49,10 @@
 .related-img{
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 .related-details{
-    height: 40%;
+    height: 35%;
     font: 12px;
     margin-top: 10px;
 }
@@ -62,16 +63,16 @@
 
 .fa-info-circle{
     font-size: 18px;
+    margin-right: 5px;
 }
 .sponsored{
     color: #01A0C6;
     display: flex;
-    margin-top: 10px;
+    padding-top: 5px;
 }
 .rating-icons{
     font-size: 18px;
-    color: #01A0C6;
-    margin-top: 10px;   
+    color: #01A0C6;  
 }
 .fa-star-o{
     font-size: 18px;

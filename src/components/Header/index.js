@@ -36,10 +36,13 @@ const Header = () => {
 
                 {!mobile && (
                     <div className="header-right-elements">
-                        <i className="fa fa-user" id="header-icon"></i>   
-                        <i className="fa fa-shopping-cart" id="header-icon"></i>
-                        <Link className="sign-up-btn" to="/signup">SIGN UP</Link>
-
+                        <div className="head-icon">
+                            <i className="fa fa-user" id="header-icon"></i>   
+                            <i className="fa fa-shopping-cart" id="header-icon"></i>
+                        </div>
+                        <div className="head-bt">
+                            <Link className="sign-up-btn" to="/signup">SIGN UP</Link>
+                        </div>
                     </div>
                 )}
                 

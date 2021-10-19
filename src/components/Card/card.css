@@ -42,6 +42,12 @@
     height: 60%;
     
 }
+.card-price{
+    color: black;
+}
+.card-name{
+    color: black;
+}
 .card-save{
     color: #01A0C6;
     font-weight: bold;
@@ -49,6 +55,7 @@
 .card-img{
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 .card-details{
     height: 40%;
@@ -62,16 +69,16 @@
 
 .fa-info-circle{
     font-size: 18px;
+    margin-right: 5px;
 }
 .sponsored{
     color: #01A0C6;
     display: flex;
-    margin-top: 10px;
+    padding-top: 5px;
 }
 .rating-icons{
     font-size: 18px;
-    color: #01A0C6;
-    margin-top: 10px;   
+    color: #01A0C6; 
 }
 .fa-star-o{
     font-size: 18px;
@@ -92,10 +99,8 @@
     background-color: #00627a;
 }
 .see-more{
-    display: flex;
-    padding: 0 100px;
-    justify-content: flex-start;
     text-decoration: none;
+    float: right;
 }
 
 .see-more-btn{

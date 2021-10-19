@@ -46,17 +46,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 #footer-icon-item{
     border-radius: 50%;
     color: #01A0C6;
     background-color: white;
-    font-size: 25px;
-    padding: 10px;
     margin-right: 10px;
+    padding: 15px;
     cursor: pointer;
     transition: 0.5s;
+    height: 50px;
+    width: 200px;
 }
 #footer-icon-item:hover{
     background-color: #C4C4C4;

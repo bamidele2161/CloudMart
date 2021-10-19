@@ -35,10 +35,10 @@ const Product = (props) => {
                     <p className="spn">Sponsored Price</p>
                     <h2 className="product-price">${product.price}</h2>
                     <p className="save-price">${product.save}</p>
-                    <button className="details-btn">Place Order</button>
-                    <button className="details-btn">Add to cart</button>
-                    <button className="details-btn">Add to wishlist</button>
-                    <button className="details-btn">Share</button>
+                    <button className="details-btn"><i class="fa fa-wpforms" aria-hidden="true"></i>Place Order</button>
+                    <button className="details-btn"><i class="fa fa-cart-plus" aria-hidden="true"></i>Add to cart</button>
+                    <button className="details-btn"><i class="fa fa-heart"></i>Add to wishlist</button>
+                    <button className="details-btn"><i class="fa fa-share-alt" aria-hidden="true"></i>Share</button>
                     <div className="features">
                         <ul className="feature-list">
                             <h2 className="feature-title">

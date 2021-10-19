@@ -24,6 +24,14 @@
     border-bottom-right-radius: 20px;
 
 }
+.details-btn{
+    text-align: left;
+
+}
+.details-btn .fa{
+     margin: 0px 30px;
+     font-size: 16px;
+}
 #fa-search{
     font-size: 25px;
 }
@@ -110,7 +118,7 @@
 }
 @media only screen and (min-width: 300px) and (max-width: 500px) {
     .Product-page{
-        height: 1000px;
+        height: 1200px;
         padding: 60px;
     }
     .product-page-input{
@@ -141,18 +149,22 @@
         margin-top: -20px;
     }
     .details-btn{
-        width: 150px;
+        width: 170px;
         margin-top: 16px;
     }
     .features{
         margin-top: 30px;
     }
+    .details-btn .fa{
+        margin: 0px;
+        font-size: 12px;
+   }
   }
   
   @media only screen and (min-width: 500px) and (max-width: 650px) {
 
     .Product-page{
-        height: 1150px;
+        height: 1200px;
         padding: 60px;
     }
     .product-page-input{
@@ -183,12 +195,16 @@
         margin-top: -20px;
     }
     .details-btn{
-        width: 150px;
+        width: 170px;
         margin-top: 16px;
     }
     .features{
         margin-top: 30px;
     }
+    .details-btn .fa{
+        margin: 0px;
+        font-size: 13px;
+   }
   }
   @media only screen and (min-width: 650px) and (max-width: 800px) {
   
@@ -196,6 +212,10 @@
         height: 800px;
         padding: 60px;
     }
+    .details-btn .fa{
+        margin: 0px;
+        font-size: 14px;
+   }
     .product-page-input{
         padding: 10px;
         width: 90%;
@@ -222,7 +242,7 @@
         padding: 20px;
     }
     .details-btn{
-        width: 150px;
+        width: 170px;
         margin-top: 16px;
     }
     .feature-item{
@@ -233,6 +253,10 @@
     .Product-page{
         height: 950px;
     }
+    .details-btn .fa{
+        margin: 0px;
+        font-size: 14px;
+   }
     .product-image-url{
         height: 90%;
         width: 100%;

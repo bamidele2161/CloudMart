@@ -1,8 +1,7 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import SignUpPage from '../components/SignUpPage';
-import Sidebar from '../components/Sidebar';
 
 const SignUp = () => {
     return (

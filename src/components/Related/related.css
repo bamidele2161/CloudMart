@@ -1,56 +1,56 @@
-.card-container{
+.related-container{
     height: 1100px;
     margin: 50px 0;
 }
-.card-headline{
+.related-headline{
     display: flex;
     justify-content: flex-start;
     padding: 0 100px;
 }
-.card-header-title{
+.related-header-title{
     color: #01A0C6;
 }
-.card-item-container{
+.related-item-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 40px 100px;
     grid-gap: 80px;
 }
-.card-badge{
+.related-badge{
     align-items: center;
     justify-content: center;
     text-align: center;
-    text-decoration: none;
+
 }
-.card-item{
+.related-item{
     display: flex;
     flex-direction: column;
     height: 300px;
     margin-bottom: 40px;
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
 }
-.card-item:hover{
+.related-item:hover{
     transform: scale(1.05);
 }
-.card-details{
+.related-details{
     text-align: left;
     padding: 0 18px;
     font-size: 12px;
     cursor: pointer;
 }
-.card-image{
+.related-image{
     height: 60%;
     
 }
-.card-save{
+.related-save{
     color: #01A0C6;
     font-weight: bold;
 }
-.card-img{
+.related-img{
     height: 100%;
     width: 100%;
 }
-.card-details{
+.related-details{
     height: 40%;
     font: 12px;
     margin-top: 10px;
@@ -116,20 +116,20 @@
 
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
-    .card-container{
+    .related-container{
         height: 3650px;
     }
-    .card-item-container{
+    .related-item-container{
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 50px;
         padding: 40px 60px;
     }
-    .card-headline{
+    .related-headline{
         padding: 0 60px;
         margin-bottom: -30px;
     }
-    .card-badge{
+    .related-badge{
         margin-top: 40px;
     }
     .fa-star{
@@ -142,7 +142,6 @@
     }
     .fa-star-o{
         font-size: 12px;
-        padding: 0;
     }
     .rating-icons{
         margin-top: 5px;
@@ -150,10 +149,8 @@
     }
     .fa-info-circle{
         font-size: 12px;
-        padding: 0px;
-        margin-top: 2px;
     }
-    .card-item-container{
+    .related-item-container{
         grid-gap: 20px;
     }
     .see-more{
@@ -164,25 +161,25 @@
     }
 }
 @media only screen and (min-width: 500px) and (max-width: 600px) {
-    .card-container{
+    .related-container{
         height: 1900px;
     }
-    .card-item-container{
+    .related-item-container{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 30px;
         padding: 40px 50px;
     }
-    .card-headline{
+    .related-headline{
         display: flex;
         justify-content: flex-start;
         padding: 0 50px;
         margin-bottom: -30px;
     }
-    .card-details{
+    .related-details{
         padding: 0 11px;
     }
-    .card-badge{
+    .related-badge{
         margin-top: 30px;
     }
     .fa-star{
@@ -213,22 +210,22 @@
     
 }
 @media only screen and (min-width: 600px) and (max-width: 880px) {
-    .card-container{
+    .related-container{
         height: 1950px;
     }
-    .card-headline{
+    .related-headline{
         display: flex;
         justify-content: flex-start;
         padding: 0 60px;
         margin-bottom: -30px;
     }
-    .card-item-container{
+    .related-item-container{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 60px;
         padding: 40px 60px;
     }
-    .card-badge{
+    .related-badge{
         margin-top: 30px;
     }
     .fa-star{
@@ -258,10 +255,10 @@
     
 }
 @media only screen and (min-width: 880px) and (max-width: 992px) {
-    .card-container{
+    .related-container{
         height: 1450px;
     }
-    .card-item-container{
+    .related-item-container{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 45px;
@@ -290,10 +287,10 @@
 
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px){
-    .card-container{
+    .related-container{
         height: 1450px;
     }
-    .card-item-container{
+    .related-item-container{
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 65px;
     }
@@ -321,11 +318,11 @@
     }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1300px){
-    .card-item-container{
+    .related-item-container{
         grid-gap: 60px;
         height: 1000px;
     }
-    .card-container{
+    .related-container{
         height: 1150px;
     }
     .fa-star{
@@ -349,7 +346,7 @@
     .see-more-btn{
         padding: 10px 15px;
     }
-    .card-badge{
+    .related-badge{
 
     } 
 }

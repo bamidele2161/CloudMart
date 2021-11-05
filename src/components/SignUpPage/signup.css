@@ -1,5 +1,6 @@
 .signup-container{
-    height: 900px;
+    padding-top: 100px;
+    height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +71,7 @@ label{
     .input-field{
         padding: 7px;
         border: solid 1px #01A0C6;
-        margin-bottom: 15px;
+        margin-bottom: 0px;
     }
    .form-submit{
        padding: 7px 5px;
@@ -98,7 +99,7 @@ label{
     .input-field{
         padding: 8px;
         border: solid 1px #01A0C6;
-        margin-bottom: 15px;
+        margin-bottom: 0px;
     }
    .form-submit{
        padding: 8px 5px;

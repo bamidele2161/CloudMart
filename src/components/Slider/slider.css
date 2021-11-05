@@ -4,7 +4,7 @@
 }
 
 :root {
-    --heights: 650px;
+    --heights: 730px;
     --widths: 100%; 
 }
 
@@ -13,6 +13,8 @@
     width: 100%;
     margin: auto;
     overflow: hidden;
+    padding-top: 80px;
+    
 }
 
 .active {
@@ -61,6 +63,7 @@
   font-weight: bold;
   border-radius: 0px 5px 5px 0px;
   color: #01A0C6;
+  z-index: 40;
 }
 
 .prev:hover,
@@ -85,6 +88,7 @@
   top: 680px;
   justify-content: center;
   z-index: 200;
+  z-index: 40;
 }
 
 .dot {
@@ -157,10 +161,10 @@
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
   .slider-container{
-    height: 450px;
+    height: 550px;
   }
   .all-dots{
-    top: 500px;
+    top: 520px;
   }
   .dot{
     height: 1rem;

@@ -1,11 +1,23 @@
-.header-container{
+.navbar{
     height: 80px;
     justify-content: space-between;
     display: flex;
     padding: 0 100px;
-    box-shadow: 0px 4px 15px 0px #d4d4d4;
+    background: white;
+    position: fixed;
+    width: 100%;
 }
-
+.navbar-active{ 
+    box-shadow: 0px 4px 15px 0px #d4d4d4;
+    height: 80px;
+    justify-content: space-between;
+    display: flex;
+    padding: 0 100px;
+    background: white;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+}
 
 #header-icon{
     color: #01A0C6;
@@ -48,22 +60,26 @@
 }
 .fa-times{
     color: #01A0C6;
+    font-size: 30px;
+}
+.fa-bars{
+    font-size: 30px;
 }
 .mobile-icon{
     display: block;
     position: absolute;
-    top: -20px;
+    top: 20px;
     right: 10px;
-    transform: translate(-100%, 60%);
-    font-size: 40px;
+    width: 50px;
+    padding: 0px;
     cursor: pointer;
     color: #01A0C6;
 }
 .sidebar {
-    width: 50%;
+    width: 100%;
     background: #01A0C6;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 80px;
     left: -100%;
     transition: 0.3s all ease-in-out;
@@ -85,7 +101,8 @@
   .sidebar-links {
       color: white;
       text-decoration: none;
-      margin-top: 15px;
+      margin-top: 20px;
+      font-weight: bold;
   }
   .sidebar-links:hover{
       color: #C4C4C4;
@@ -97,9 +114,31 @@
       .logo{
         width: 100px;
         margin-top: 20px;
+        margin-left: -50px;
     }
     .sidebar{
         height: 100vh;
         top: 80px;
     }
+    .fa-bars{
+        font-size: 25px;
+    }
+    .fa-times{
+        font-size: 25px;
+    }
+    .mobile-icon{
+        margin-right: 30px;
+    }
   }
+  @media only screen and (min-width: 1050px) and (max-width: 1300px) {
+    .header-container{
+    }
+    .logo{
+      width: 120px;
+  }
+
+  #header-icon{
+    font-size: 40px;
+    
+}
+}

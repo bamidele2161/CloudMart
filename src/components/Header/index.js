@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 const Header = () => {
     const  [mobile, setMobile] = useState(false);
     const [sidebar, setSidebar] = useState(false);
+    const [navbar, setNavbar] = useState(false);
     useEffect(() => {
         if (window.innerWidth < 1065) {
             setMobile(true);
@@ -27,9 +28,20 @@ const Header = () => {
         };
     }, []);
     
+    const changeBackground = () => {
+        console.log(window.scrollY)
+        if(window.scrollY >=40) {
+            setNavbar(true);
+        } else {
+            setNavbar(false);
+        }
+        
+    }
+
+    window.addEventListener('scroll', changeBackground);
     return (
         <>
-            <nav className="header-container">
+            <nav className={navbar ? "navbar-active" : "navbar"}>
                 <Link className="header-logo" to="/home" onClick={() => setSidebar(false)}>
                     <img src={image} className="logo" alt="nav logo"/>
                 </Link>
@@ -37,7 +49,7 @@ const Header = () => {
                 {!mobile && (
                     <div className="header-right-elements">
                         <div className="head-icon">
-                            <i className="fa fa-user" id="header-icon"></i>   
+                            <Link to="/dashboard"><i className="fa fa-user" id="header-icon"></i></Link>   
                             <i className="fa fa-shopping-cart" id="header-icon"></i>
                         </div>
                         <div className="head-bt">

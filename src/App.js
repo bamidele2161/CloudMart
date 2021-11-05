@@ -5,6 +5,7 @@ import home from './pages/home'
 import login from './pages/login'
 import signup from './pages/signup.js'
 import product from './pages/product';
+import dashboard from './pages/dashboard';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path='/login' component={login} exact/>
         <Route path='/signup' component={signup} exact/>
         <Route path='/product/:id' component={product} exact />
+        <Route path="/dashboard" component={dashboard} exact />
       </Switch>
     </Router>
   );

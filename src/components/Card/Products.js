@@ -1,6 +1,7 @@
 import React from 'react'
 import Rating from './Rating'
 const products = ({product}) => {
+    
     return (
         <a className="card-badge" key={product.id} href={`/product/${product.id}`}>
             <div className="card-item" >

@@ -20,25 +20,26 @@ const ProductPage = (props) => {
                 <div className="product-image">
                     <h3 className="product-page-name">Nike Free Footwear</h3>
                     <Rating rating={product.rating}/>
-                    <img src={product.image} className="product-image-url" alt={product.name}/>
+                    {/*image carousel */}
+                    <img src={product?.image} className="product-image-url" alt={product.name}/>
                 </div>
                 <div className="product-details">
                     <p className="spn">Sponsored Price</p>
                     <h2 className="product-price">${product.price}</h2>
                     <p className="save-price">${product.save}</p>
-                    <button className="details-btn">Place Order</button>
-                    <button className="details-btn">Add to cart</button>
-                    <button className="details-btn">Add to wishlist</button>
-                    <button className="details-btn">Share</button>
+                    
                     <div className="features">
                         <ul className="feature-list">
                             <h2 className="feature-title">
                                 Key Features
                             </h2>
-                            <li className="feature-item">Soft and Long Lasting Sole</li>
-                            <li className="feature-item">Quality Cotton Body</li>
+                            <li className="feature-item">Soft and Sole</li>
+                            <li className="feature-item">Quy</li>
                             <li className="feature-item">Red Color</li>
                         </ul>
+                    </div>
+                    <div className="number-of-items">
+                        <input placeholder='1' className="number"/>
                     </div>
                 </div>
             </div>        

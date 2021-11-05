@@ -1,0 +1,66 @@
+.dashboard-container {
+    height: 1100px;
+    padding: 200px 100px;
+}
+.dashboard-header{
+    
+}
+.dashboard-headline{
+    color: #01A0C6;
+}
+.dashboard-user-details{
+    padding: 50px 100px;
+    box-shadow: 4px 4px 20px 10px rgba(0, 0, 0, 0.05);
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.welcome{
+    color: #6E6E6E;
+}
+.user-name{
+    color: #01A0C6;
+    font-size: 30px;
+}
+.dashboard-user-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+}
+.dashboard-card-item{
+    height: 250px;
+    width: 250px;
+    box-shadow: 4px 4px 20px 10px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    border-radius: 20px;
+}
+.balance{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 30px;
+    color: #6E6E6E;
+}
+.card-price{
+    color: #01A0C6;
+    font-size: 20px;
+    font-weight: bold;
+}
+.account{
+    font-weight: bold;
+    color: #6E6E6E;
+}
+.dashboard-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+}
+.dashboard-btn{
+    border: none;
+    padding: 15px 20px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    width: 300px;
+    margin-top: 20px;
+    background-color: #01A0C6;
+}

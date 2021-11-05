@@ -78,6 +78,7 @@
 .product-image-url{  
     height: 500px;
     width: 90%;
+    object-fit: cover;
 }
 .rate-icon{
     color: white;
@@ -116,6 +117,9 @@
 .feature-item{
     font-size: 12px;
 }
+.number-of-items{
+    border: solid red;
+}
 @media only screen and (min-width: 300px) and (max-width: 500px) {
     .Product-page{
         height: 1200px;
@@ -129,6 +133,7 @@
       .product-page-search{
         width: 300px;
         margin-bottom: 30px;
+        margin-top: 50px;
     }
     .product-page-search-button{
         padding: 5px;

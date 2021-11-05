@@ -1,6 +1,7 @@
 import image_one from '../../images/p8.jpg'
 import image_two from '../../images/p9.jpg'
 import image_three from '../../images/p10.jpg'
+import image_four from '../../images/p32.jpg'
 const data = {
     products: [
         {
@@ -15,6 +16,7 @@ const data = {
             countInStock: 10,
             description: 'high quality product',
             save: 10,
+            
         },
         {
             id: '2',
@@ -46,7 +48,7 @@ const data = {
             id: '4',
             name: 'Nike Slim Shirt',
             category: 'Shirts',
-            image: image_two,
+            image: image_four,
             price: 150,
             brand: 'Nike',
             rating: 3.5,
@@ -85,7 +87,7 @@ const data = {
             id: '7',
             name: 'Gucci',
             category: 'Shoe',
-            image: image_three,
+            image: image_four,
             price: 150,
             brand: 'Nike',
             rating: 3.5,
